@@ -8,8 +8,6 @@
 
 Asynchronous Telegram booking bot built with aiogram 3, PostgreSQL and Redis FSM. Race-condition-safe reservations via transactional row locking, Alembic migrations, Docker Compose deployment, and concurrency tests in CI.
 
-**Topics:** `aiogram` · `asyncio` · `booking-system` · `python` · `telegram-bot` · `postgresql` · `redis` · `sqlalchemy` · `alembic` · `docker` · `docker-compose` · `fsm`
-
 ---
 
 ## Features
