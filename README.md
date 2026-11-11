@@ -6,7 +6,9 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue.svg)](https://www.postgresql.org/)
 [![Docker](https://img.shields.io/badge/Docker-Compose-orange.svg)](https://www.docker.com/)
 
-A production-oriented, asynchronous Telegram bot for client booking and lead management. It uses a layered architecture, transactional row locking to prevent double-booking, Redis-backed FSM state, Alembic migrations, and containerized deployment.
+Asynchronous Telegram booking bot built with aiogram 3, PostgreSQL and Redis FSM. Race-condition-safe reservations via transactional row locking, Alembic migrations, Docker Compose deployment, and concurrency tests in CI.
+
+**Topics:** `aiogram` · `asyncio` · `booking-system` · `python` · `telegram-bot` · `postgresql` · `redis` · `sqlalchemy` · `alembic` · `docker` · `docker-compose` · `fsm`
 
 ---
 
